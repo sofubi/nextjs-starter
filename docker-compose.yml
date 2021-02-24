@@ -7,9 +7,6 @@ services:
       shipyard.route: '/'
     build:
       context: .
-    entrypoint: "sh -c"
-    command:
-      - "echo 'started'"
     ports:
       - '3000:3000'
     volumes:
